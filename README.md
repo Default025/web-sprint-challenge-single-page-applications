@@ -35,8 +35,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+
+The useRouteMatch hook is used to provide access to the matched object. They are slightly different from a route as it doesnt actually establish a route.
+
 1. How would you explain form validation to someone who has never programmed before?
+
+A process where the web browser checks to see if the information provided by the user is true, if not it flags an error and alerts the user.
+
 1. In 1-2 sentences, define end to end testing.
+
+End to end testing is a form of testing your code to check for bugs. End to end in particular focuses on replicating the user experience to check for any errors from start to finish.
 
 ## Instructions
 
@@ -59,8 +67,8 @@ Your finished project must include all of the following requirements:
 - [ ] Validation for name and the error message is "name must be at least 2 characters" (Use this exact error message to make sure tests pass) ::: VERY IMPORTANT TO USE THAT EXACT ERROR MESSAGE (casing included!)
 - [ ] A dropdown for pizza size with an id of "size-dropdown"
 - [ ] A checklist for toppings - at least 4 (hint: name each separately!)
-- [ ] Text input for special instructions with an id of "special-text"
-- [ ] An Add to Order button that has an id of "order-button" and that submits form and returns a database record of name, size, toppings and special instructions
+- [ ] Text input to Order button that has an id of "order-button" and that submits form and returns a database record of name, size, toppings and for special instructions with an id of "special-text"
+- [ ] An Add special instructions
 
 Data should look something like
 ```
