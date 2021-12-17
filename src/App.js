@@ -46,6 +46,12 @@ const App = () => {
   return (
     <div className='container'>
       <header><h1>Lambda Eats</h1></header>
+      <nav>
+        <div className='nav-links'>
+          <Link to="/">Home</Link>
+        </div>
+      </nav>
+
 
       <pizzaForm
         values={formValues}
